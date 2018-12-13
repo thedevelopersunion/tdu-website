@@ -10,6 +10,10 @@ a {
   cursor: pointer;
 }
 
+a:visited {
+  color: #00A551;
+}
+
 li {
   list-style-type: none;
 }
@@ -304,6 +308,13 @@ form p {
   margin-bottom: 32px;
   font-size: 24px;
   color: #656667;
+}
+
+#letter-content > a {
+  font-size: 24px;
+  color: #00A551;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #letter-call-to-action {
